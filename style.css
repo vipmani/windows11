@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* .background-image img {
+    height: 10%;
+    width: 90%;
+} */
+
+body {
+    background-image: url('background-image/windows-11-blue-stock-white-background-light-official-3840x2400-5616.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+/* container */
+
+#container {
+    background-color: rgb(247, 244, 244);
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    transition: all 0.50s ease-in-out;
+}
+
+#container:hover {
+    height: 38px;
+    transition: all 0.50s ease-in-out;
+}
+
+
+/* .center-taskbar */
+
+.center-taskbar {
+    display: flex;
+}
+
+.center-taskbar img {
+    height: 23px;
+    margin: 3px 4px;
+    cursor: pointer;
+    padding: 4px 5px;
+}
+
+.center-taskbar img:hover {
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+/* right-taskbar */
+
+.right-taskbar {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 50px;
+}
+
+.right-taskbar img {
+    height: 15.25px;
+    margin: 3px 2px;
+    cursor: pointer;
+    padding: 4px 5px;
+}
+
+.right-taskbar img:hover {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.last-three-right {
+    align-self: center;
+    margin-left: 5px;
+}
+
+.last-three-right img {
+    margin: -3px -3px;
+}
+
+
+/* date */
+
+
+/* #date {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 0.75rem;
+    align-self: center;
+    width: 250px;
+} */
+
+
+/* top-twoFlex */
+
+.top-twoFlex {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* heading-start */
+
+.heading-start {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 0.90rem;
+    margin-left: -15px;
+}
+
+.right-twoFlex {
+    margin-right: -16px;
+    background-color: white;
+    border: 0.1px solid rgb(212, 210, 210);
+    padding: 4px 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+/* start */
+
+#start {
+    margin-left: 23rem;
+    margin-top: 1.25rem;
+    border: 1px solid white;
+    width: 30%;
+    background-color: rgb(252, 252, 252);
+    padding: 30px 65px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+#start img {
+    height: 35px;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+
+/* first-six */
+
+.first-six {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.second-six {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.third-six {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 0.75rem;
+    position: relative;
+    top: -20px;
+}
+
+
+/* important */
+
+.important-top {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.Important-note {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 590;
+    font-size: 0.90rem;
+    margin-left: -15px;
+}
+
+.important-more {
+    margin-right: -16px;
+    background-color: white;
+    border: 0.1px solid rgb(212, 210, 210);
+    padding: 4px 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+/* three-recom */
+
+.three-recom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: -35px;
+    /* cursor: pointer; */
+}
+
+
+/* news */
+
+.news {
+    display: flex;
+    cursor: pointer;
+}
+
+.news-heading {
+    align-self: center;
+}
+
+.news-heading::first-line {
+    font-size: 0.85rem;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 590;
+}
+
+.news-heading div {
+    font-size: 0.80rem;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+
+/* keep */
+
+.keep {
+    display: flex;
+    cursor: pointer;
+}
+
+.keep-heading {
+    align-self: center;
+}
+
+.keep-heading div {
+    font-size: 0.80rem;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+
+/* chrome */
+
+.chrome {
+    display: flex;
+    cursor: pointer;
+}
+
+.chrome-heading {
+    align-self: center;
+}
+
+.chrome-heading div {
+    font-size: 0.80rem;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}

@@ -1,0 +1,1214 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* upper */
+
+#upper {
+    /* position: fixed; */
+    /* width: 100%; */
+}
+
+#first-upper {
+    /* position: fixed; */
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+div {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 0.80rem;
+    margin-top: -2px;
+}
+
+.left-upper {
+    display: flex;
+    margin-top: 1px;
+}
+
+.left-upper img {
+    height: 16px;
+    margin-right: 2px;
+    border-radius: 3px;
+}
+
+.right-upper img {
+    height: 10px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+
+/* #second-upper */
+
+#second-upper {
+    display: flex;
+    /* height: 53px; */
+}
+
+.folder {
+    display: flex;
+}
+
+.folder img {
+    height: 20px;
+    margin: 17px 0px;
+    margin-left: 20px;
+}
+
+.folder div {
+    align-self: center;
+    margin-left: 5px;
+}
+
+.folder hr {
+    border: 0.01px solid rgb(231, 228, 228);
+    height: 35px;
+    margin-top: 10.50px;
+    margin-left: 20px;
+}
+
+.four-icons {
+    display: flex;
+    align-self: center;
+}
+
+.four-icons img {
+    height: 18px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.four-icons hr {
+    border: 0.01px solid rgb(231, 228, 228);
+    height: 35px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+
+/* short */
+
+.short {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.short img {
+    height: 18px;
+}
+
+
+/* short-container */
+
+.sort-first-div div {
+    display: flex;
+}
+
+.sort-first-div img {
+    height: 15px;
+    align-self: center;
+    /* margin-left: 19px; */
+    background-color: transparent;
+}
+
+.sort-first-div {
+    /* margin-top: 1.40px; */
+    /* background-color: #F8F9F9; */
+    list-style: none;
+    border: 1px solid #fbfdfd;
+    width: 140px;
+    margin-left: 23.50rem;
+    border-radius: 5px;
+    position: absolute;
+    top: -280px;
+}
+
+.firstColor {
+    background-color: #fbfdfd;
+}
+
+.sort-first-div ul {
+    font-size: 0.83rem;
+}
+
+.sort-first-div li {
+    list-style: none;
+    margin: 2px;
+    cursor: pointer;
+    padding: 5px 30px;
+    border-radius: 5px;
+    white-space: normal;
+    position: relative;
+}
+
+.sort-first-div li:hover {
+    background-color: white;
+}
+
+
+/* more-explore */
+
+.more-explore {
+    margin-left: 115px;
+    width: 185px;
+    border-radius: 5px;
+    background-color: #fbfdfd;
+    position: absolute;
+    top: -300px;
+    overflow-x: inherit;
+}
+
+.more-explore li {
+    margin-top: 2px;
+}
+
+.explore {
+    font-size: 0.87rem;
+}
+
+
+/* group */
+
+.groupName img {
+    height: 15px;
+    align-self: center;
+    position: relative;
+    left: -20px;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.groupExtract {
+    position: absolute;
+    left: 115px;
+    top: -360px;
+    /* border: 1px solid #fbfdfd; */
+    width: 182px;
+    border-radius: 5px;
+    background-color: #6d8585;
+    /* background-color: #F8F9F9; */
+}
+
+
+/* view */
+
+#view {
+    align-self: center;
+    margin-left: 25px;
+    margin-right: 10px;
+}
+
+.flex-view {
+    display: flex;
+    cursor: pointer;
+}
+
+.flex-view img {
+    height: 16px;
+    margin-right: 5px;
+}
+
+
+/* view-content */
+
+.view-content {
+    position: absolute;
+    top: -280px;
+    margin-left: -3rem;
+    list-style: none;
+    width: 140px;
+    border-radius: 10px;
+    border: 1px solid #fbfdfd;
+    background-color: #fbfdfd;
+    padding: 10px 20px;
+}
+
+.extra-large-icon {
+    display: flex;
+}
+
+.extra-large-icon img {
+    height: 17px;
+    margin-right: 8px;
+}
+
+.large-icon {
+    display: flex;
+    margin-top: 8px;
+}
+
+.large-icon img {
+    height: 15px;
+    margin-right: 10px;
+    margin-left: 1px;
+}
+
+.medium-icon {
+    display: flex;
+    margin-top: 8px;
+}
+
+.medium-icon img {
+    height: 13px;
+    margin-right: 10px;
+    margin-left: 2px;
+}
+
+.small-icon {
+    display: flex;
+    margin-top: 8px;
+}
+
+.small-icon img {
+    height: 15px;
+    margin-right: 10px;
+    margin-left: 0.70px;
+}
+
+.list {
+    display: flex;
+    margin-top: 8px;
+}
+
+.list img {
+    height: 15px;
+    margin-right: 10px;
+    margin-left: 0.80px;
+}
+
+.details {
+    display: flex;
+    margin-top: 8px;
+}
+
+.details img {
+    height: 15px;
+    margin-right: 10px;
+    margin-left: 0.90px;
+}
+
+.tiles {
+    display: flex;
+    margin-top: 8px;
+}
+
+.tiles img {
+    height: 15px;
+    margin-right: 9px;
+    margin-left: 1px;
+}
+
+.content {
+    display: flex;
+    margin-top: 8px;
+}
+
+.content img {
+    height: 15px;
+    margin-right: 10px;
+    margin-left: 0.70px;
+}
+
+.compact-view {
+    display: flex;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.compact-view img {
+    height: 15px;
+    margin-right: 10px;
+    margin-left: 1px;
+}
+
+.view-content div {
+    cursor: pointer;
+}
+
+
+/* show */
+
+.show {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.show img {
+    height: 14px;
+    margin-left: 30px;
+}
+
+.show-content {
+    position: absolute;
+    border: 1px solid #fbfdfd;
+    background-color: #fbfdfd;
+    left: 38rem;
+    padding: 10px 10px;
+    border-radius: 10px;
+    top: -318px;
+}
+
+.show-content div {
+    padding: 3px 5px;
+    font-size: 0.83rem;
+}
+
+.show-content img {
+    height: 16px;
+}
+
+.details-pane {
+    display: flex;
+    align-items: center;
+}
+
+.preview {
+    display: flex;
+    align-items: center;
+}
+
+.check-box {
+    display: flex;
+    align-items: center;
+}
+
+.file-name {
+    display: flex;
+    align-items: center;
+}
+
+.hidden-items {
+    display: flex;
+    align-items: center;
+}
+
+
+/* lastTop */
+
+.lastTop {
+    border: 0.01px solid rgb(231, 228, 228);
+    height: 35px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+
+/* .dot */
+
+.dot {
+    align-self: center;
+}
+
+.dot img {
+    height: 20px;
+    margin-left: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+/* dotContent */
+
+.dotContent {
+    position: absolute;
+    top: -280px;
+    left: 31.50rem;
+    border: 1px solid #fbfdfd;
+    background-color: #fbfdfd;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.dotContent div {
+    margin: 4px;
+    cursor: pointer;
+}
+
+.dotContent img {
+    height: 16px;
+    margin-right: 5px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+}
+
+.map {
+    display: flex;
+    align-items: center;
+}
+
+.disconnect {
+    display: flex;
+    align-items: center;
+}
+
+.select {
+    display: flex;
+    align-items: center;
+}
+
+.selectNone {
+    display: flex;
+    align-items: center;
+}
+
+.invert {
+    display: flex;
+    align-items: center;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+}
+
+.properties {
+    display: flex;
+    align-items: center;
+}
+
+
+/* arrowImage */
+
+
+/* middelFlex */
+
+#middelFlex {
+    display: flex;
+    align-items: center;
+    /* position: fixed; */
+    margin-top: 7px;
+}
+
+.arrowImage {
+    margin-right: 10px;
+    margin-left: 5px;
+    /* margin-top: 4rem; */
+}
+
+.arrowImage img {
+    height: 16px;
+    padding: 0px 3px;
+}
+
+.pageReload {
+    /* margin-top: 1rem; */
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 6px 10px;
+    width: 52rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pageReload img {
+    height: 15px;
+    right: 2px;
+}
+
+
+/* searchHere */
+
+.searchHere {
+    display: flex;
+    align-items: center;
+    /* margin-top: 0.50rem; */
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 4px 5px;
+    margin-left: 7px;
+    width: 17.85rem;
+}
+
+.search {
+    border: none;
+    outline: none;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 0.80rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.search::placeholder {
+    color: black;
+}
+
+.searchHere img {
+    height: 16px;
+}
+
+
+/* lastSection */
+
+#lastSection {
+    margin-left: 5px;
+    /* margin-top: 5rem; */
+}
+
+
+/* leftSection */
+
+.leftSection {
+    width: 15rem;
+    position: fixed;
+    border-right: 1px solid gray;
+    height: 32.70rem;
+    overflow-y: scroll;
+    height: 80%;
+}
+
+.quickimg {
+    height: 15px;
+}
+
+.quickaccess-Content {
+    margin-left: 27px;
+    margin-top: 5px;
+}
+
+.quickaccess-Content div {
+    margin: 2px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.quickaccess-Content img {
+    height: 14px;
+    margin-right: 4px;
+}
+
+summary img {
+    margin-top: 20px;
+}
+
+
+/* oneDrive-mainimg */
+
+.oneDrive-mainimg {
+    height: 15px;
+    align-self: center;
+    margin-right: 3px;
+    position: relative;
+    top: 2px;
+    margin-left: 5px;
+}
+
+.secondDetails {
+    margin-top: -10px;
+}
+
+
+/* onedriveContent */
+
+.onedriveContent {
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.onedriveContent div {
+    margin: 2px 0px;
+}
+
+.onedriveContent img {
+    align-self: center;
+    margin-right: 3px;
+    height: 14px;
+}
+
+
+/* thirdDetails */
+
+.thirdDetails {
+    margin-top: -10px;
+}
+
+
+/* thisPc */
+
+.thisPc {
+    height: 15px;
+    margin-left: 5px;
+    margin-right: 3px;
+    position: relative;
+    top: 4px;
+}
+
+
+/* thisPccontent */
+
+.thisPccontent {
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.thisPccontent div {
+    margin: 2px 0px;
+}
+
+.thisPccontent img {
+    height: 15px;
+    align-self: center;
+    margin-right: 3px;
+}
+
+
+/* cDrive */
+
+.cDrive {
+    height: 20px;
+    position: relative;
+    top: 4px;
+    margin-left: 4px;
+    margin-right: 3px;
+}
+
+.fourthDetails {
+    margin-top: -10px;
+}
+
+.osContent img,
+.network img {
+    height: 16px;
+    margin-right: 3px;
+    position: relative;
+    top: 3px;
+}
+
+.network {
+    margin-top: -10px;
+}
+
+
+/* Apps */
+
+.cApps-img {
+    height: 16px;
+    margin-left: 4px;
+    margin-right: 3px;
+    position: relative;
+    top: 3px;
+}
+
+.cApps {
+    margin-top: -15px;
+    margin-left: 13px;
+}
+
+
+/* appsContent */
+
+.appsContent {
+    margin-left: 1.90rem;
+    margin-top: 8px;
+}
+
+.app-firstFolder {
+    display: flex;
+    margin-bottom: 4px;
+}
+
+.app-secondFolder {
+    display: flex;
+}
+
+
+/* dell */
+
+.dell,
+.MagicPlusMini,
+.programFiles,
+.filesX86,
+.users,
+.windows {
+    margin-left: 1rem;
+    margin-top: -13px;
+}
+
+.MagicPlusMini-app {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 4px;
+}
+
+
+/* drivers */
+
+.drivers {
+    margin-left: 1rem;
+    margin-top: -13px;
+}
+
+.driversAudio {
+    margin-left: 1rem;
+    margin-top: -15px;
+}
+
+.driver-firstCode,
+.driversZero,
+.drivers-drivers {
+    margin-top: -14px;
+    margin-left: 15px;
+}
+
+.drivers-drivers-lastCode {
+    display: flex;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.drivers-drivers-lastCode div {
+    margin-top: 2px;
+}
+
+
+/* drivers-secondCode */
+
+.drivers-secondCode,
+.drivers-RealtekAudio,
+.details-firstI,
+.details-secondI,
+.drivers-as {
+    margin-top: -14px;
+    margin-left: 15px;
+}
+
+.drivers-dlls,
+.drivers-cfg,
+.drivers-Fw,
+.drivers-topology {
+    display: flex;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.drivers-dlls div,
+.drivers-cfg div,
+.drivers-Fw div,
+.drivers-topology div {
+    margin-top: 2px;
+}
+
+.drivers-fwLogy {
+    margin-left: 7px;
+    margin-top: 3px;
+}
+
+.drivers-ias {
+    margin-top: -14px;
+    margin-left: 8px;
+}
+
+.drivers-Wov {
+    margin-top: -14px;
+    margin-left: 14px;
+}
+
+
+/* drivers-corcent */
+
+.drivers-corcent,
+.drivers-m,
+.drivers-Corfuj,
+.drivers-secondM,
+.drivers-Corleno,
+.drivers-thirdM,
+.drivers-Corleno2,
+.drivers-fourthM,
+.drivers-Corlexa,
+.drivers-fifthM,
+.drivers-echo,
+.drivers-sixthM,
+.drivers-Fuj,
+.drivers-fujM,
+.drivers-heyColva,
+.drivers-heyColvaM,
+.drivers-hilG,
+.drivers-hilGm,
+.drivers-HwKws,
+.drivers-HwKwsM,
+.drivers-Leno2,
+.drivers-leno2m {
+    margin-left: 20px;
+    margin-top: -14px;
+}
+
+.drivers-zh-CN,
+.drivers-ja-JP,
+.drivers-second-zh-CN,
+.drivers-fourth-zh-CN,
+.drivers-de-DE,
+.drivers-de-AU,
+.drivers-de-CA,
+.drivers-de-GB,
+.drivers-de-IN,
+.drivers-de-US,
+.drivers-es-ES,
+.drivers-es-MX,
+.drivers-fr-CA,
+.drivers-fr-FR,
+.drivers-fr-IT,
+.drivers-ja-JP,
+.drivers-echo-m-de-AT,
+.drivers-echo-m-de-DE,
+.drivers-echo-m-en-AU,
+.drivers-echo-m-en-CA,
+.drivers-echo-m-en-GB,
+.drivers-echo-m-en-IE,
+.drivers-echo-m-en-IN,
+.drivers-echo-m-en-NZ,
+.drivers-echo-m-en-US,
+.drivers-echo-m-es-ES,
+.drivers-echo-m-es-MX,
+.drivers-echo-m-fr-CA,
+.drivers-echo-m-fr-FR,
+.drivers-echo-m-it-IT,
+.drivers-echo-m-ja-JP,
+.drivers-fujM-ja-JP,
+.drivers-heyColvaM-ko-KR,
+.drivers-hilGm-ko-KR,
+.drivers-HwKwsM-m-de-DE,
+.drivers-HwKwsM-m-en-CA,
+.drivers-HwKwsM-m-en-GB,
+.drivers-HwKwsM-m-en-IN,
+.drivers-HwKwsM-m-en-US,
+.drivers-HwKwsM-m-es-ES,
+.drivers-HwKwsM-m-es-MX,
+.drivers-HwKwsM-m-fr-CA,
+.drivers-HwKwsM-m-fr-FR,
+.drivers-HwKwsM-m-it-IT,
+.drivers-HwKwsM-m-ja-JP,
+.drivers-HwKwsM-m-pt-BR,
+.drivers-HwKwsM-m-zh-CN,
+.drivers-leno2m {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 4px;
+}
+
+.drivers-service,
+.drivers-sid {
+    display: flex;
+    margin-left: 31.50px;
+    margin-top: 4px;
+}
+
+.drivers-service div,
+.drivers-sid div {
+    margin-top: 1px;
+}
+
+
+/* intel */
+
+.intel,
+.perfLogs {
+    display: flex;
+    margin-left: 28px;
+    margin-top: 4px;
+}
+
+.intel div,
+.perfLogs div {
+    margin-top: 2px;
+}
+
+
+/* dell */
+
+.dellUpdate {
+    margin-left: 1rem;
+    margin-top: -15px;
+}
+
+.dellLog {
+    display: flex;
+    margin-top: 4px;
+    margin-left: 20px;
+}
+
+.dellLog div {
+    margin-top: 1px;
+}
+
+
+/* rightSection */
+
+.rightSection details {
+    margin-left: 16rem;
+}
+
+
+/* rightQuick */
+
+.rightQuick {
+    margin-left: 10px;
+}
+
+.rightQuick div {
+    margin: 3px 0px;
+}
+
+.rightQuick img {
+    height: 15px;
+    margin-right: 3px;
+    align-self: center;
+}
+
+
+/* fileExplorer-taskbar */
+
+
+/* container */
+
+#file-container {
+    background-color: rgb(247, 244, 244);
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    /* position: relative; */
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    transition: all 0.50s ease-in-out;
+    overflow: hidden;
+}
+
+#file-container:hover {
+    height: 38px;
+    transition: all 0.50s ease-in-out;
+}
+
+
+/* .center-taskbar */
+
+.file-center-taskbar {
+    display: flex;
+}
+
+.file-center-taskbar img {
+    height: 23px;
+    margin: 3px 4px;
+    cursor: pointer;
+    padding: 4px 5px;
+}
+
+.file-center-taskbar img:hover {
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+/* right-taskbar */
+
+.file-right-taskbar {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 50px;
+}
+
+.file-right-taskbar img {
+    height: 15.25px;
+    margin: 3px 2px;
+    cursor: pointer;
+    padding: 4px 5px;
+}
+
+.file-right-taskbar img:hover {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.file-last-three-right {
+    align-self: center;
+    margin-left: 5px;
+}
+
+.file-last-three-right img {
+    margin: -3px -3px;
+}
+
+
+/* start */
+
+
+/* file-top-twoFlex */
+
+.file-top-twoFlex {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* file-heading-start */
+
+.file-heading-start {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 0.90rem;
+    margin-left: -15px;
+}
+
+.file-right-twoFlex {
+    margin-right: -16px;
+    background-color: white;
+    border: 0.1px solid rgb(212, 210, 210);
+    padding: 4px 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+/* file-start */
+
+#file-start {
+    margin-left: 23rem;
+    margin-top: -3.9rem;
+    border: 1px solid white;
+    width: 30%;
+    background-color: rgb(252, 252, 252);
+    padding: 30px 65px;
+    margin-right: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#file-start img {
+    height: 35px;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+
+/* file-first-six */
+
+.file-first-six {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.file-second-six {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.file-third-six {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 0.75rem;
+    position: relative;
+    top: -20px;
+}
+
+
+/* file-important */
+
+.file-important-top {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.file-Important-note {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 590;
+    font-size: 0.90rem;
+    margin-left: -15px;
+}
+
+.file-important-more {
+    margin-right: -16px;
+    background-color: white;
+    border: 0.1px solid rgb(212, 210, 210);
+    padding: 4px 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+/* file-three-recom */
+
+.file-three-recom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: -35px;
+    /* cursor: pointer; */
+}
+
+
+/* file-news */
+
+.file-news {
+    display: flex;
+    cursor: pointer;
+}
+
+.file-news-heading {
+    align-self: center;
+}
+
+.file-news-heading::first-line {
+    font-size: 0.85rem;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 590;
+}
+
+.file-news-heading div {
+    font-size: 0.80rem;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+
+/* file-keep */
+
+.file-keep {
+    display: flex;
+    cursor: pointer;
+}
+
+.file-keep-heading {
+    align-self: center;
+}
+
+.file-keep-heading div {
+    font-size: 0.80rem;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+
+/* file-chrome */
+
+.file-chrome {
+    display: flex;
+    cursor: pointer;
+}
+
+.file-chrome-heading {
+    align-self: center;
+}
+
+.file-chrome-heading div {
+    font-size: 0.80rem;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
